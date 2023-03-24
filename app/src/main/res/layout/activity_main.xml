@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!--<Button-->
+        <!--android:id="@+id/sixButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_marginStart="3dp"-->
+        <!--android:layout_marginLeft="3dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:background="@drawable/frame_lucky1"-->
+        <!--android:text="@string/loto_6_49"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/adView"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/fiveButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_marginStart="40dp"-->
+        <!--android:layout_marginLeft="40dp"-->
+        <!--android:layout_marginEnd="40dp"-->
+        <!--android:layout_marginRight="40dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:background="@drawable/frame_lucky1"-->
+        <!--android:text="@string/loto_5_40"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/adView"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/jokerButton"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/sixButton" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/jokerButton"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_marginEnd="3dp"-->
+        <!--android:layout_marginRight="3dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:background="@drawable/frame_lucky1"-->
+        <!--android:text="@string/joker"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/adView"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/titleTextView"-->
+        <!--android:layout_width="196dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="110dp"-->
+        <!--android:layout_marginLeft="110dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:layout_marginEnd="108dp"-->
+        <!--android:layout_marginRight="108dp"-->
+        <!--android:background="@drawable/frame_lucky3"-->
+        <!--android:inputType="none"-->
+        <!--android:text="@string/alege_interval"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="26sp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/fromTextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="10dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@drawable/frame_lucky4"-->
+        <!--android:inputType="none"-->
+        <!--android:text="@string/de_la"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/titleTextView" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/fromInputTextView"-->
+        <!--android:layout_width="57dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="5dp"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@drawable/frame_lucky4"-->
+        <!--android:freezesText="true"-->
+        <!--android:inputType="number"-->
+        <!--android:text="@string/_1"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/fromTextView"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/titleTextView" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/toTextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginEnd="5dp"-->
+        <!--android:layout_marginRight="5dp"-->
+        <!--android:background="@drawable/frame_lucky4"-->
+        <!--android:inputType="none"-->
+        <!--android:text="@string/pana_la"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/toInputTextView"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/titleTextView" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/toInputTextView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_marginEnd="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:background="@drawable/frame_lucky4"-->
+        <!--android:freezesText="true"-->
+        <!--android:inputType="number"-->
+        <!--android:text="@string/_100"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="24sp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/titleTextView" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/numberTextView"-->
+        <!--android:layout_width="382dp"-->
+        <!--android:layout_height="119dp"-->
+        <!--android:layout_marginStart="100dp"-->
+        <!--android:layout_marginLeft="100dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginEnd="100dp"-->
+        <!--android:layout_marginRight="100dp"-->
+        <!--android:background="@drawable/frame_lucky_new"-->
+        <!--android:freezesText="true"-->
+        <!--android:gravity="center"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="29sp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/toTextView" />-->
+
+    <!--<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/adView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginStart="32dp"-->
+        <!--android:layout_marginLeft="32dp"-->
+        <!--android:layout_marginEnd="32dp"-->
+        <!--android:layout_marginRight="32dp"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="ca-app-pub-3968016319040413/1060612374"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/darkblue_btn"
+        android:padding="35dp"
+        android:text="Share"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultActivityButton" />
+
+    <Button
+        android:id="@+id/generateActivityButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/darkblue_btn"
+        android:text="Genereaza Numere"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:padding="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/resultActivityButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/resultActivityButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/darkblue_btn"
+        android:text="Rezultate Loto"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:padding="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/shareButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/generateActivityButton" />
+
+    <!--<Button-->
+        <!--android:id="@+id/generateButton"-->
+        <!--android:layout_width="180dp"-->
+        <!--android:layout_height="65dp"-->
+        <!--android:layout_marginStart="30dp"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:layout_marginEnd="112dp"-->
+        <!--android:layout_marginRight="112dp"-->
+        <!--android:background="@drawable/generate_lucky_new"-->
+        <!--android:text="@string/genereaza"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="#FFF"-->
+        <!--android:textSize="20sp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/shareButton"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/numberTextView" />-->
+
+</android.support.constraint.ConstraintLayout>

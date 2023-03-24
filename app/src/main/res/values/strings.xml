@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Numere Norocoase</string>
+    <string name="loto_6_49">Loto 6/49</string>
+    <string name="loto_5_40">LOTO 5/40</string>
+    <string name="joker">JOKER</string>
+    <string name="alege_interval">Alege Interval:</string>
+    <string name="de_la">De La:</string>
+    <string name="pana_la">Pana La:</string>
+    <string name="calculeaza_numar">Calculeaza Numar</string>
+    <string name="_1">1</string>
+    <string name="_100">100</string>
+    <string name="genereaza">Genereaza</string>
+    <string name="evaluate">Evalueaza aplicatia</string>
+</resources>
